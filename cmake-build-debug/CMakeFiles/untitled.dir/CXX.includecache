@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Stud/5 sem/os/untitled/attribute_manager.cpp
+attribute_manager.h
+E:/Stud/5 sem/os/untitled/attribute_manager.h
+vector
+-
+
+E:/Stud/5 sem/os/untitled/attribute_manager.h
+windows.h
+-
+iostream
+-
+menu.h
+E:/Stud/5 sem/os/untitled/menu.h
+
+E:/Stud/5 sem/os/untitled/menu.h
+string
+-
+vector
+-
+tuple
+-
+memory
+-
+safe_input.h
+E:/Stud/5 sem/os/untitled/safe_input.h
+
+E:/Stud/5 sem/os/untitled/safe_input.h
+iostream
+-
+limits
+-
+
