@@ -2,6 +2,7 @@
 #include "directory_manager.h"
 #include "file_manager.h"
 #include "attribute_manager.h"
+#include "overlapped_copy.h"
 
 int main() {
 
@@ -31,7 +32,8 @@ int main() {
                 std::make_shared<action_menu>("Get file info by handle", get_file_info),
                 std::make_shared<action_menu>("Get file time", get_file_time),
                 std::make_shared<action_menu>("Set file time", set_file_time)
-            })
+            }),
+            std::make_shared<action_menu>("Overlapped copy", overlapped_copy)
     });
 
     main_menu.execute();
